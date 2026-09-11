@@ -76,6 +76,22 @@
     color: transparent;
   }
 
+  .cv-download{ padding: 0 0 44px; }
+  .cv-btn{
+    display:inline-flex; align-items:center; gap:10px;
+    text-decoration:none; color: var(--ink);
+    font-family:'IBM Plex Sans', sans-serif; font-weight:500; font-size:.95rem;
+    padding: 12px 22px;
+    border-radius: 8px;
+    background: var(--panel);
+    border: 1px solid transparent;
+    background-image: linear-gradient(var(--panel), var(--panel)), var(--gradient);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: transform .15s ease;
+  }
+  .cv-btn:hover{ transform: translateY(-1px); }
+
   /* ---------- NAV ---------- */
   nav.top{
     position: sticky; top:0; z-index: 20;
@@ -290,13 +306,21 @@
       </div>
       <div>
         <span class="role">Networking &amp; Cloud Student</span>
-        <h1>Simone <span class="grad-text">D'Isanto</span></h1>
+        <h1><span class="grad-text">Simone D'Isanto</span></h1>
         <p class="intro">Studente in Networking and Cloud, con basi informatiche solide e attenzione ai dettagli. Le challenge tecnologiche a cui ho partecipato mi hanno spinto fuori dalla mia comfort zone, migliorando problem solving, gestione delle scadenze, lavoro in team e public speaking. Punto a mettere presto queste competenze al servizio di un contesto aziendale stimolante.</p>
       </div>
     </div>
 
   </div>
 </header>
+
+<div class="cv-download">
+  <div class="wrap">
+    <a class="cv-btn" href="assets/CV_DisantoSimone.pdf" target="_blank" rel="noopener">
+      Scarica il mio CV (PDF)
+    </a>
+  </div>
+</div>
 
 <hr class="rule">
 
@@ -510,15 +534,15 @@
     <div class="hobby-row">
       <div>
         <h3>Nuoto</h3>
-        <p>Allena mindset, resistenza e capacità di mantenere il focus su un obiettivo.</p>
+        <p>Fondamentale per il benessere fisico e l'equilibrio mentale, capace di allenare il mindset, la resistenza e la capacità di mantenere il focus costante su ogni singolo obiettivo.</p>
       </div>
       <div>
         <h3>Biliardo</h3>
-        <p>Concentrazione e gestione emotiva, anche nei momenti di forte tensione.</p>
+        <p>Passione coltivata nel tempo che richiede un livello elevato di concentrazione mentale e gestione emotiva; insegna a mantenere la lucidità anche nei momenti di forte tensione e a saper accettare la sconfitta con spirito sportivo e costruttivo.</p>
       </div>
       <div>
         <h3>Food & tasting</h3>
-        <p>Curiosità per sapori e culture gastronomiche differenti.</p>
+        <p>Profonda curiosità orientata alla scoperta di sapori e culture gastronomiche differenti; un interesse che riflette l'apertura verso nuove esperienze, l'attenzione ai dettagli e il piacere della ricerca personale.</p>
       </div>
     </div>
   </div>
